@@ -1,0 +1,21 @@
+
+
+.home{
+  padding: 20px;
+  .filter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .item{
+    text-align: center;
+    margin-bottom: 40px;
+    .title{
+      font-size: 20px;
+    }
+    .desc{
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
