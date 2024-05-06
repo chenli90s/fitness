@@ -26,7 +26,7 @@ function Index() {
       setList(Object.keys(items))
     }
   }, [filter])
-  console.log(list)
+  // console.log(list)
   return (
     <View className="home">
       <View className='filter'>

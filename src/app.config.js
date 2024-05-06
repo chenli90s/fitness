@@ -3,6 +3,8 @@ export default defineAppConfig({
     'pages/index/index',
     'pages/exercise/index',
     'pages/fitness/index',
+    'pages/body/index',
+    'pages/plan/index',
   ],
   window: {
     backgroundTextStyle: 'light',
