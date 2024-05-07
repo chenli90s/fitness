@@ -317,7 +317,7 @@ export const weights = {
 }
 
 Object.values(weight).forEach(tps=>{
-    Object.keys(tps).map(name=>{
+    Object.keys(tps).forEach(name=>{
         weights[name] = tps[name]
     })
 })

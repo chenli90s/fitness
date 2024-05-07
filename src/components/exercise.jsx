@@ -129,7 +129,7 @@ function Exercise(props) {
     setStart(null)
     setTime('')
   }
-  console.log(cTo, hisT)
+  // console.log(cTo, hisT)
   return (
     <View className='exercise'>
       <Collapse defaultActiveName={['2', '3']} expandIcon={<ArrowDown />}>
